@@ -1,0 +1,77 @@
+.header-container{
+    height: 5vw;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+ img{
+   position: absolute;
+    transform: translate(-47vw,0vw);
+    height: 2.7vw;
+    
+ }   
+ .isOpen{
+   position: absolute;
+   transform: translate(-1vw,0vw);
+   width: 100vw;
+   padding-left: 20vw;
+
+   // position: absolute;
+    
+    background-color:gray;
+   //  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: auto; // Adjust the height based on the content
+    overflow-y: auto; //
+   
+   
+   
+  
+ }
+//  .close{
+//    color:blue;
+//    height: 100px;
+//    background-color: green;
+//  }
+//  p{
+//    position:absolute;
+   
+//  }
+ 
+ 
+ .mac{
+   transform: translate(-20vw,0vw);
+   position: absolute;
+ }
+ .ipad{
+   transform: translate(-10vw,0vw);
+   position: absolute;
+ }
+ .store{
+   transform: translate(-40vw,0vw);
+   position: absolute;
+ }
+ .watch{
+   transform: translate(-30vw,0vw);
+   position: absolute;
+ }
+ .tv{
+   transform: translate(20vw,0vw);
+   position: absolute;
+ }
+ .airpods{
+   transform: translate(10vw,0vw);
+   position: absolute;
+ }
+ .support{
+   transform: translate(40vw,0vw);
+   position: absolute;
+ }
+ .accessories{
+   transform: translate(30vw,0vw);
+   position: absolute;
+ }
+ .entertainment{
+   transform: translate(0vw,0vw);
+   position: absolute;
+ }
+}

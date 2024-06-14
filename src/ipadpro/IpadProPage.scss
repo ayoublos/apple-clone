@@ -1,0 +1,135 @@
+.homepage-container{
+    width: 100vw;
+    .ipadpro-container{
+        height: 90vw;
+        .ipadpro-img{
+            width: 70vw;
+            transform: translate(15vw,15vw);
+           }
+           p{
+            color:white;
+            font-size: 1.7vw;
+            transform: translate(37vw,20vw);
+           }
+           button{
+            transform: translate(45vw,21vw);
+            padding:1vw;
+            width: 7vw;
+            background-color: lightblue;
+            border-radius: 4vw;
+           }        
+    }
+    .getthehighlights-container{
+        background-color: #5555;
+        height: 100vw;
+        width: 100vw;
+        color: white;
+      
+        .hiddenelements-container{
+            display: grid;
+            grid-template-columns:2fr 1f 1f 1f ;
+            .hiddenvideo{
+                grid-column: 2/3;
+                color:lightseagreen;
+                font-size: 2vw;
+                text-decoration: none;
+                transform: translate(0vw,16vw);
+                opacity: 0;
+                transition: opacity 1s;
+
+            }
+            .hiddenevent{
+                grid-column: 3/4;
+                color:lightseagreen;
+                font-size: 2vw;
+                text-decoration: none;
+                transform: translate(0vw,16vw);
+                opacity: 0;
+                transition: opacity 1s;
+
+            }
+            .hidegethighlights{
+                color: lightgray;
+                transition: opacity 1s;
+                font-size: 5vw;
+                font-weight: 400;
+                transform: translate(1vw,10vw);
+
+
+                opacity: 0; 
+                /* Initially hide the element */
+                /* Additional styling as needed */
+              }
+              
+            //   .visible {
+    
+            //     opacity: 0.1;
+    
+            //   }
+              .gethighlights{
+                color: lightgray;
+                opacity: 0.6;
+                transition: opacity 1s;
+                font-size: 5vw;
+                font-weight: 400;
+                transform: translate(1vw,10vw);
+                 /* Add a transition for smooth appearance */
+    
+              }
+              .watchthevideo-container{
+                grid-column: 2/3;
+                color:lightseagreen;
+                font-size: 2vw;
+                text-decoration: none;
+                transform: translate(0vw,16vw);
+                transition: opacity 1s;
+
+              }
+              .watchtheevent-container{
+                grid-column: 3/4;
+                color:lightseagreen;
+                font-size: 2vw;
+                text-decoration: none;
+                transform: translate(0vw,16vw);
+                transition: opacity 1s;
+
+              }
+    
+        }
+        
+    }
+    .takecloserlook-container{
+      background-color: #5555;
+      height: 100vw;
+      width: 100vw;
+      color: white;
+      margin-top: 1vw;
+      transform: translate(0vw,-53.34vw);
+
+      .takecloserlook{
+        color: lightgray;
+        opacity: 0.6;
+        transition: opacity 1s;
+        font-size: 5vw;
+        font-weight: 400;
+        transform: translate(1vw,10vw);
+
+
+      }
+      .hidetakecloserlook{
+        color: lightgray;
+        transition: opacity 1s;
+        font-size: 5vw;
+        font-weight: 400;
+        transform: translate(1vw,10vw);
+
+
+        opacity: 0; 
+        /* Initially hide the element */
+        /* Additional styling as needed */
+      }
+      
+    }
+   
+ 
+}

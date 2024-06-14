@@ -1,0 +1,116 @@
+.carousel {
+  transform: translate(0vw,-78vw);
+  display: flex;
+  height: 50vw;
+  width: 100%;
+  // max-width: 800px;
+  // background-color: pink;
+}
+
+.carousel_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel_card {
+  margin: 5vw;
+  border-radius: 1vw;
+  display: flex;
+  width: 90vw;
+  height: 50vw;
+  flex: 1;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: 0.5s linear;
+}
+
+.carousel_card-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.card_image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 40px 30px;
+  align-items: flex-end;
+}
+
+.card_title {
+  color: white;
+  font-size: 30px;
+}
+
+.carousel_arrow_left,
+.carousel_arrow_right {
+  position: absolute;
+  font-size: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+.carousel_arrow_left {
+  left: 15px;
+}
+
+.carousel_arrow_right {
+  right: 15px;
+}
+
+.carousel_pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 15vw);
+  background-color: gray;
+  border-radius:5vw;
+  width:10vw;
+  padding: 1vw;
+  padding-left: 1vw;
+}
+
+.pagination_dot {
+  height: 0.7vw;
+  width:  0.7vw;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 1.6vw;
+}
+
+.pagination_dot:hover {
+  transform: scale(1.2);
+}
+
+.pagination_dot-active {
+  background-color: white;
+  width: 2.3vw;
+  border-radius: 1vw;
+}
